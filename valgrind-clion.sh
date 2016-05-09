@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "-- Testing our implementation of OpenShell --"
+echo "-- Testing our program --"
 echo ""
 echo "- If you have any problem in passing a test read the corresponding"
 echo "- source file to understand what the test is checking"
@@ -8,5 +8,5 @@ printf "********************* PRESS ENTER TO RUN TESTS  ... "
 #read _
 make
 sh.<< EOF
-valgrind ./shell
+valgrind ./a.out
 EOF
